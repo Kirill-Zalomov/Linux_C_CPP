@@ -19,7 +19,7 @@ namespace ic {
     template<typename T>
     class information_collector {
 
-        virtual ~information_collector() = default;
+        public: virtual ~information_collector() = default;
         public: virtual T collect() const = 0;
 
     };
