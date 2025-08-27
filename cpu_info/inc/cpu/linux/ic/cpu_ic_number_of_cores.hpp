@@ -9,7 +9,7 @@
 namespace ic {
     namespace linux {
 
-         /**
+        /**
         * @class   cpu_ic_number_of_cores
         * @author  Kirill Zalomov
         * @brief   Класс для получения кол-ва ядер процессора.

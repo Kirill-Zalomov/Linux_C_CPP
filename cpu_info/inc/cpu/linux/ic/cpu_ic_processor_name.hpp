@@ -9,7 +9,7 @@
 namespace ic {
     namespace linux {
 
-         /**
+        /**
         * @class   cpu_ic_processor_name
         * @author  Kirill Zalomov
         * @brief   Класс для получения названия процессора.
