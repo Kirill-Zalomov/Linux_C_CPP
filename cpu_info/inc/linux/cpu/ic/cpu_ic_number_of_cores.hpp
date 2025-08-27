@@ -4,6 +4,7 @@
 
 #include "information_collector.hpp"
 #include <cstdint>
+#include <unistd.h>
 
 
 namespace linux {
