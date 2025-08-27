@@ -4,10 +4,11 @@
 
 #include "information_collector.hpp"
 #include <string>
+#include <sys/utsname.h>
 
 
-namespace ic {
-    namespace linux {
+namespace linux {
+    namespace ic {
 
         /**
         * @class   cpu_ic_architecture
@@ -20,7 +21,7 @@ namespace ic {
         *          используются системные вызовы ядра Linux.
         */
         class cpu_ic_architecture
-        : public ic::information_collector<std::string> {
+        : public information_collector<std::string> {
 
             std::string collect() const override;
 

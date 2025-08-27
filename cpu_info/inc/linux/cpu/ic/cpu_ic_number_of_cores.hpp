@@ -6,8 +6,8 @@
 #include <cstdint>
 
 
-namespace ic {
-    namespace linux {
+namespace linux {
+    namespace ic {
 
         /**
         * @class   cpu_ic_number_of_cores
@@ -20,7 +20,7 @@ namespace ic {
         *          вызовы ядра Linux.
         */
         class cpu_ic_number_of_cores
-        : public ic::information_collector<std::size_t> {
+        : public information_collector<std::size_t> {
 
             std::size_t collect() const override;
 

@@ -6,8 +6,8 @@
 #include <string>
 
 
-namespace ic {
-    namespace linux {
+namespace linux {
+    namespace ic {
 
         /**
         * @class   cpu_ic_processor_name
@@ -20,7 +20,7 @@ namespace ic {
         *          вызовы ядра Linux.
         */
         class cpu_ic_processor_name
-        : public ic::information_collector<std::string> {
+        : public information_collector<std::string> {
 
             std::string collect() const override;
 

@@ -5,8 +5,8 @@
 #include "information_collector.hpp"
 
 
-namespace ic {
-    namespace linux {
+namespace linux {
+    namespace ic {
 
         /**
         * @class   cpu_ic_temperature
@@ -19,7 +19,7 @@ namespace ic {
         *          используются системные вызовы ядра Linux.
         */
         class cpu_ic_temperature
-        : public ic::information_collector<double> {
+        : public information_collector<double> {
 
             double collect() const override;
 

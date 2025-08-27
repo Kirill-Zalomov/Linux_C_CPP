@@ -6,8 +6,8 @@
 #include <list>
 
 
-namespace ic {
-    namespace linux {
+namespace linux {
+    namespace ic {
 
         /**
         * @class   cpu_ic_workload_of_cores
@@ -20,7 +20,7 @@ namespace ic {
         *          используются системные вызовы ядра Linux.
         */
         class cpu_ic_workload_of_cores
-        : public ic::information_collector<std::list<double>> {
+        : public information_collector<std::list<double>> {
 
             std::list<double> collect() const override;
 
