@@ -3,7 +3,11 @@
 
 
 #include "information_collector.hpp"
+#include <iostream>
+#include <fstream>
+#include <sstream>
 #include <string>
+#include <regex>
 
 
 namespace linux {
